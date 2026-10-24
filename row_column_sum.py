@@ -1,0 +1,13 @@
+
+import numpy as np
+
+a = np.array([[1, 2, 3, 4],
+              [5, 6, 7, 8],
+              [9, 10, 11, 12],
+              [13, 14, 15, 16]])
+
+print("Matrix:")
+print(a)
+
+print("Sum of each row:", np.sum(a, axis=1))
+print("Sum of each column:", np.sum(a, axis=0))
